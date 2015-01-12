@@ -1,7 +1,9 @@
 # OSY-memory-management
 Implementation of simplified system memory management for course Operating Systems (Faculty of Information Technology - Czech Technical University in Prague).
+*My solution is in file soultion.cpp* 
 
-Zadání:
+##Zadání:##
+```
 Úkolem je realizovat funkce a třídy implementující zjednodušenou správu virtuální paměti v OS.
 
 Cílem úlohy je hlubší pochopení problematiky virtuální paměti a její správy v OS. Pro účely této úlohy však byla celá problematika drasticky zjednodušena. Celé programování probíhá na úrovni C a C++ a není potřeba pracovat s privilegovanými instrukcemi CPU (tedy jedná se o čistě user-space program, není potřeba znalost assembleru):
@@ -62,3 +64,4 @@ Základní verze programu musí umět spouštět procesy bez kopírování adres
 Pro testování využijte přiložený archiv s několika připravenými testy. Tyto testy (a některé další testy) jsou použité v testovacím prostředí. Dodané testy dále ukazují použití požadovaných funkcí/tříd.
 
 Ve zdrojových kódech přiloženého archivu je vidět seznam dostupných hlavičkových souborů. Všimněte si, že STL není dostupná. Reálný OS také nemá STL k dispozici (není new/delete), navíc byste si museli implementovat vlastní alokátory.
+```
